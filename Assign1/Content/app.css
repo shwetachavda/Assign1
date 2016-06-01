@@ -1,0 +1,118 @@
+﻿/*custom css*/
+
+body {
+    background: url('Michael-Quellier-Designer-Technology-Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.navbar-inverse{
+    background: #375a7f;
+    border-color: transparent;
+}
+.fa-color {
+    font-size: 1.4em;
+    color: #E5EFFF;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.intro-message {
+    position: relative;
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 30%;
+}
+.display {
+    display: block;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Raleway;
+    font-size: xx-large;
+}
+.intro-divider {
+    width: 550px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.list-inline {
+    padding-left: 30%;
+    margin-left: -5px;
+    list-style: none;
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.panel-primary>.panel-heading{
+        background: #375a7f;
+        border: #375a7f;
+}
+label{
+    color:white;
+    font-size:x-large;
+    font-family: Raleway;
+}
+
+h1{
+    color:white;
+    text-transform: capitalize;
+    font-family: Raleway;
+}
+.btn-warning1 {
+    color: #ffffff;
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+.btn-success1 {
+    color: #ffffff;
+    background-color: #00bc8c;
+    border-color: #00bc8c;
+}
+.has-error{
+        color: #e74c3c;
+}
+.margin-top{
+    margin-top:60px;
+}
+.top {
+    margin-top: 100px;
+}
+.project-title{
+        color:white;
+        font-family: Raleway;
+        text-align:center;
+        text-transform:capitalize;
+        font-size:25px;
+}
+.project-desc{
+        color:white;
+        font-family: Raleway;
+        text-align:center;
+}
+.btn-primary1{
+   color:white;
+    background-color: #375a7f;
+    border-color: #375a7f;
+    margin-left: 100px;
+    width: 100px;
+    font-size: 15px;
+    margin-top:10px;
+    
+}
+.img-thumbnail1{
+    height:250px;
+    display: inline-block;
+  max-width: 100%;
+  /*height: auto;*/
+  padding: 4px;
+  line-height: 1.42857143;
+ /* background-color: #fff;*/
+  
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
