@@ -81,15 +81,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\logo.gif" />
     <Content Include="Content\download %281%29.png" />
     <Content Include="Content\download.jpg" />
     <Content Include="Content\download.png" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Home.png" />
     <Content Include="Content\Michael-Quellier-Designer-Technology-Background.jpg" />
     <Content Include="Content\Shweta Chavda Developer.png" />
@@ -124,6 +128,13 @@
     <Content Include="Site1.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
