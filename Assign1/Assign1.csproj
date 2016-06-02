@@ -97,7 +97,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Assets\Home.png" />
-    <Content Include="Assets\Background.jpg" />
+    <Content Include="Content\Background.jpg" />
     <Content Include="Assets\Shweta Chavda Developer.png" />
     <Content Include="Assets\unnamed.png" />
     <Content Include="Assets\Web-Design-Icon.gif" />
