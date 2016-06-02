@@ -7,19 +7,19 @@
         <hr class="intro-divider" />
        <div class="row top">
         <div class="col-md-3 margin-top">
-            <img src="Content/Web-Design-Icon.gif" class="img-circle" width="200" height="200"/>
+            <img src="Assets/Web-Design-Icon.gif" class="img-circle" width="200" height="200"/>
             <h4 class="project-title">Web-Designing</h4>
         </div>
          <div class="col-md-3 margin-top">
-            <img src="Content/download.png" class="img-circle" width="200" height="200"/>
+            <img src="Assets/download.png" class="img-circle" width="200" height="200"/>
              <h4 class="project-title">Object Oriented Programming</h4>
         </div>
          <div class="col-md-3 margin-top">
-            <img src="Content/download.jpg" class="img-circle" width="200" height="200"/>
+            <img src="Assets/download.jpg" class="img-circle" width="200" height="200"/>
              <h4 class="project-title">Relational Database</h4>
         </div>
          <div class="col-md-3 margin-top">
-            <img src="Content/download (1).png" class="img-circle" width="200" height="200"/>
+            <img src="Assets/download (1).png" class="img-circle" width="200" height="200"/>
              <h4 class="project-title">Project Management</h4>
         </div>
     </div>

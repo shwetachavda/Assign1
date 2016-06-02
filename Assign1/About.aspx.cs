@@ -13,5 +13,10 @@ namespace Assign1
         {
 
         }
+
+        protected void ResumeButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Assets/Sweta Chavda.pdf");
+        }
     }
 }

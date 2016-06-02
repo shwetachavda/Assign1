@@ -70,9 +70,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\IMG_0804 %281%29.JPG" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="Assets\Sweta Chavda.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,17 +90,17 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\logo.gif" />
-    <Content Include="Content\download %281%29.png" />
-    <Content Include="Content\download.jpg" />
-    <Content Include="Content\download.png" />
+    <Content Include="Assets\logo.gif" />
+    <Content Include="Assets\download %281%29.png" />
+    <Content Include="Assets\download.jpg" />
+    <Content Include="Assets\download.png" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\Home.png" />
-    <Content Include="Content\Michael-Quellier-Designer-Technology-Background.jpg" />
-    <Content Include="Content\Shweta Chavda Developer.png" />
-    <Content Include="Content\unnamed.png" />
-    <Content Include="Content\Web-Design-Icon.gif" />
+    <Content Include="Assets\Home.png" />
+    <Content Include="Assets\Background.jpg" />
+    <Content Include="Assets\Shweta Chavda Developer.png" />
+    <Content Include="Assets\unnamed.png" />
+    <Content Include="Assets\Web-Design-Icon.gif" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="Default.aspx" />

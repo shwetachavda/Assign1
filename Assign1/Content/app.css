@@ -1,27 +1,32 @@
 ﻿/*custom css*/
 
 body {
-    background: url('Michael-Quellier-Designer-Technology-Background.jpg') no-repeat center center fixed;
+    background: url('Background.jpg') no-repeat center center fixed;
     background-size: cover;
     
 }
+/* css for navbar */
 .navbar-inverse{
     background: #375a7f;
     border-color: transparent;
 }
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+/*css for font-awesome icons*/
 .fa-color {
     font-size: 1.4em;
     color: #E5EFFF;
 }
-.nav.navbar-nav.navbar-right li a {
-    color: white;
-}
+/*intro page message*/
+
 .intro-message {
     position: relative;
     padding-left: 30%;
     padding-top: 10%;
     padding-right: 30%;
 }
+/*h1 tag*/
 .display {
     display: block;
     color: white;
@@ -30,37 +35,39 @@ body {
     font-family: Raleway;
     font-size: xx-large;
 }
+/*css for hr tag*/
 .intro-divider {
     width: 550px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+/*to position buttons on home page*/
 .list-inline {
     padding-left: 30%;
     margin-left: -5px;
     list-style: none;
 }
+/*styling github and linkedin buttons*/
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
 }
+/*css for panel on contact page*/
 .panel-primary>.panel-heading{
+
         background: #375a7f;
         border: #375a7f;
 }
+/*labels*/
 label{
     color:white;
     font-size:x-large;
     font-family: Raleway;
 }
+/*buttons*/
 
-h1{
-    color:white;
-    text-transform: capitalize;
-    font-family: Raleway;
-}
 .btn-warning1 {
     color: #ffffff;
     background-color: #f39c12;
@@ -70,27 +77,6 @@ h1{
     color: #ffffff;
     background-color: #00bc8c;
     border-color: #00bc8c;
-}
-.has-error{
-        color: #e74c3c;
-}
-.margin-top{
-    margin-top:60px;
-}
-.top {
-    margin-top: 100px;
-}
-.project-title{
-        color:white;
-        font-family: Raleway;
-        text-align:center;
-        text-transform:capitalize;
-        font-size:25px;
-}
-.project-desc{
-        color:white;
-        font-family: Raleway;
-        text-align:center;
 }
 .btn-primary1{
    color:white;
@@ -102,6 +88,31 @@ h1{
     margin-top:10px;
     
 }
+/*error message*/
+.has-error{
+        color: #e74c3c;
+}
+.margin-top{
+    margin-top:60px;
+}
+.top {
+    margin-top: 100px;
+}
+/*projects page's heading*/
+.project-title{
+        color:white;
+        font-family: Raleway;
+        text-align:center;
+        text-transform:capitalize;
+        font-size:25px;
+}
+/*description paragraph*/
+.project-desc{
+        color:white;
+        font-family: Raleway;
+        text-align:center;
+}
+/*bootstrap class for images*/
 .img-thumbnail1{
     height:250px;
     display: inline-block;
@@ -115,4 +126,27 @@ h1{
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+}
+/*paragraph in aboutMe page*/
+.para {
+    color: white;
+    font-family: Raleway;
+    font-size: 25px;
+    position: absolute;
+    left: 300px;
+    padding-right: 200px;
+    text-align: justify;
+}
+/*image on aboutMe page*/
+.image{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    height: 230px;
+}
+/*resume button*/
+.btn-position{
+    position:absolute;
+    top:350px;
+    left:350px;
 }
